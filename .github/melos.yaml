@@ -5,6 +5,11 @@ melos:
       fetchTags: true
       message: "chore: release v{new_version} [skip ci]"
       releaseUrl: true
+      conventionalCommits:
+        types:
+          docs:
+            bump: patch
+            changelog: true
       changelogs:
         - path: CHANGELOG.md
           packageFilters:
