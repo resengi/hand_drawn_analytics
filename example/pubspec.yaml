@@ -1,0 +1,23 @@
+name: hand_drawn_analytics_example
+description: Example app demonstrating the hand_drawn_analytics package.
+publish_to: none
+
+environment:
+  sdk: ^3.10.1
+  flutter: ">=3.27.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  analytics_toolkit: ^0.2.0
+  hand_drawn_toolkit: ^0.5.0
+  hand_drawn_analytics:
+    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true

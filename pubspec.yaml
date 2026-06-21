@@ -1,0 +1,28 @@
+name: hand_drawn_analytics
+description: >-
+  Bridges analytics_toolkit queries onto hand_drawn_toolkit charts and
+  tables: runs the query, maps the result, and defaults only what you leave
+  unset.
+version: 0.1.0
+repository: https://github.com/resengi/hand_drawn_analytics
+
+topics:
+  - analytics
+  - charts
+  - dashboard
+  - data-visualization
+
+environment:
+  sdk: ^3.10.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  analytics_toolkit: ^0.2.0
+  hand_drawn_toolkit: ^0.5.0
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0

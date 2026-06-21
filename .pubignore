@@ -1,0 +1,34 @@
+# Exclude CI/CD and tooling from published package
+.github/
+
+# Standard exclusions
+.gitignore
+.metadata
+.idea/
+build/
+coverage/
+
+example/android/
+example/ios/
+example/linux/
+example/macos/
+example/test/
+example/windows/
+example/web/
+example/build/
+example/.dart_tool/
+example/.metadata
+example/.gitignore
+example/pubspec.lock
+
+# To keep package small
+assets/
+
+# Flutter/Dart/Pub related
+# Libraries should not include pubspec.lock, per https://dart.dev/guides/libraries/private-files#pubspeclock.
+/pubspec.lock
+**/doc/api/
+.dart_tool/
+.flutter-plugins-dependencies
+/build/
+/coverage/
