@@ -62,7 +62,7 @@ Add the package to your `pubspec.yaml` alongside the two packages it bridges:
 
 ```yaml
 dependencies:
-  hand_drawn_analytics: ^0.1.0+1
+  hand_drawn_analytics: ^0.1.0+2
   analytics_toolkit: ^0.2.0    # used directly to build queries
   hand_drawn_toolkit: ^0.5.0   # used directly to build chart styling templates
 ```

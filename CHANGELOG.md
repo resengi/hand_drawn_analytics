@@ -14,6 +14,31 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`hand_drawn_analytics` - `v0.1.0+2`](#hand_drawn_analytics---v0102)
+
+---
+
+#### `hand_drawn_analytics` - `v0.1.0+2`
+
+ - **FIX**: reverting failed Melos change ([#4](https://github.com/resengi/hand_drawn_analytics/issues/4)). ([455e81fc](https://github.com/resengi/hand_drawn_analytics/commit/455e81fccc87f9efa5b301cb846dce5ca312c8bb))
+
+## 0.1.0+2
+
+ - **FIX**: reverting failed Melos change ([#4](https://github.com/resengi/hand_drawn_analytics/issues/4)). ([455e81fc](https://github.com/resengi/hand_drawn_analytics/commit/455e81fccc87f9efa5b301cb846dce5ca312c8bb))
+
+
+## 2026-06-21
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`hand_drawn_analytics` - `v0.1.0+1`](#hand_drawn_analytics---v0101)
 
 ---
@@ -68,5 +93,7 @@ the values the consumer left unset.
 - **Locale-aware formatting**: one `BridgeFormatters` policy object for table
   cells, big numbers, axis ticks, unit labels, and bucket-key labels, reactive
   to runtime locale switches.`BridgeFormatters` policy object for table
+  cells, big numbers, axis ticks, unit labels, and bucket-key labels, reactive
+  to runtime locale switches.ocale switches.`BridgeFormatters` policy object for table
   cells, big numbers, axis ticks, unit labels, and bucket-key labels, reactive
   to runtime locale switches.
