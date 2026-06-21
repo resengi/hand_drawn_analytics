@@ -1,10 +1,15 @@
 name: hand_drawn_analytics
+
 description: >-
   Bridges analytics_toolkit queries onto hand_drawn_toolkit charts and
   tables: runs the query, maps the result, and defaults only what you leave
   unset.
+
 version: 0.1.0
+
+homepage: https://github.com/resengi/hand_drawn_analytics
 repository: https://github.com/resengi/hand_drawn_analytics
+issue_tracker: https://github.com/resengi/hand_drawn_analytics/issues
 
 topics:
   - analytics
