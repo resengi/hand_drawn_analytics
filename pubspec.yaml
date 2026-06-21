@@ -5,7 +5,7 @@ description: >-
   tables: runs the query, maps the result, and defaults only what you leave
   unset.
 
-version: 0.1.0
+version: 0.1.0+1
 
 homepage: https://github.com/resengi/hand_drawn_analytics
 repository: https://github.com/resengi/hand_drawn_analytics
