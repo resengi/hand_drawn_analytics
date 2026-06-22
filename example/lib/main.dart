@@ -7,7 +7,7 @@ import 'package:hand_drawn_toolkit/hand_drawn_toolkit.dart';
 ///
 /// The package is a bridge: you give it an `analytics_toolkit` *query* plus a
 /// `hand_drawn_toolkit` styling template, and it runs the aggregation and
-/// renders the result. Nothing on screen is a hand-drawn chart literal — every
+/// renders the result. Nothing on screen is a hand-drawn chart literal. Every
 /// chart's geometry is computed from raw records. Edit the data (add an event,
 /// toggle a habit day, change the window) and the affected charts recompute.
 ///

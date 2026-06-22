@@ -1,8 +1,6 @@
 # Hand Drawn Analytics
 
-A bridge between [`analytics_toolkit`](https://pub.dev/packages/analytics_toolkit) — a rendering-agnostic
-query engine — and [`hand_drawn_toolkit`](https://pub.dev/packages/hand_drawn_toolkit) — sketchy,
-hand-drawn chart and table widgets.
+A bridge between [`analytics_toolkit`](https://pub.dev/packages/analytics_toolkit), a rendering-agnostic query engine, and [`hand_drawn_toolkit`](https://pub.dev/packages/hand_drawn_toolkit), sketchy, hand-drawn chart and table widgets.
 
 You bring a typed analytics query and a hand-drawn chart configured the way you
 want it to look. The bridge runs the query, maps the result into the chart's
@@ -21,38 +19,38 @@ never reinterprets your query**.
 
 ## Features
 
-- **Query-backed widgets** — bar, line, scatter, and table widgets that
+- **Query-backed widgets**: bar, line, scatter, and table widgets that
   validate, fetch, and execute a typed `analytics_toolkit` query end to end,
   plus a big-number leaf and a streak leaderboard
-- **Styling templates** — every widget styles itself from a normal
+- **Styling templates**: every widget styles itself from a normal
   `hand_drawn_toolkit` widget you build with `data: null`; the bridge never
   re-declares a toolkit styling knob
-- **One-scope configuration** — `AnalyticsScope` supplies a shared query
+- **One-scope configuration**: `AnalyticsScope` supplies a shared query
   runner, palette, formatters, color resolver, and display-type aliases to an
   entire subtree, with a runner that stays instance-stable across rebuilds so
   widgets refetch only when the data source actually changes
-- **Precise refetch semantics** — widgets and cards re-run a query exactly when
+- **Precise refetch semantics**: widgets and cards re-run a query exactly when
   a fetch-defining input changes: the payload, the date-range mode, the runner
   instance, and only the date inputs the active mode consults
-- **Display-type dispatch** — `HandDrawnAnalyticsWidget` routes an
+- **Display-type dispatch**: `HandDrawnAnalyticsWidget` routes an
   already-computed result to a widget by a free-form `displayType` string,
   with consumer aliases and an optional builder registry for fully custom
   rendering of mapped data
-- **Spec-driven dashboard cards** — `HandDrawnAnalyticsCard` decodes a
+- **Spec-driven dashboard cards**: `HandDrawnAnalyticsCard` decodes a
   persisted `AnalyticsWidgetSpec`, runs it, dispatches by display type, and
   frames the result in `CardChrome`, reloading in response to typed
   `AnalyticsChange` events
-- **Paired-query rendering** — scatter plots consume a paired result directly;
+- **Paired-query rendering**: scatter plots consume a paired result directly;
   every other display renders a paired result by reducing it to one series
   with a `SeriesCombination` (rates, differences, products, sums)
-- **Pure mapper layer** — every result-to-chart-data conversion is an
+- **Pure mapper layer**: every result-to-chart-data conversion is an
   exported pure function (`seriesToBar`, `pairedToScatter`, `resultToTable`,
   …) you can call yourself
-- **Graceful failure** — expected problems become typed `BridgeError`s
+- **Graceful failure**: expected problems become typed `BridgeError`s
   rendered as the toolkit's own empty states, never thrown
-- **Semantic coloring** — a resolver → tag-pin → positional-palette resolution
+- **Semantic coloring**: a resolver → tag-pin → positional-palette resolution
   order, so colors can follow meaning rather than position
-- **Locale-aware formatting** — one `BridgeFormatters` policy object for table
+- **Locale-aware formatting**: one `BridgeFormatters` policy object for table
   cells, big numbers, axis ticks, unit labels, and bucket-key labels, reactive
   to runtime locale switches
 
