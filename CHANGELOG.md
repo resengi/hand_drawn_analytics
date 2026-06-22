@@ -1,3 +1,39 @@
+# Change Log
+
+
+
+## 2026-06-22
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`hand_drawn_analytics` - `v0.1.1`](#hand_drawn_analytics---v011)
+
+---
+
+#### `hand_drawn_analytics` - `v0.1.1`
+
+ - **FIX**: restoring previous version and updating workflow for correct deployment ([#5](https://github.com/resengi/hand_drawn_analytics/issues/5)). ([4c4a03db](https://github.com/resengi/hand_drawn_analytics/commit/4c4a03dbc0eb7102a976d6a4bd57b9b123e8fd93))
+ - **FIX**: reverting failed Melos change ([#4](https://github.com/resengi/hand_drawn_analytics/issues/4)). ([455e81fc](https://github.com/resengi/hand_drawn_analytics/commit/455e81fccc87f9efa5b301cb846dce5ca312c8bb))
+ - **FIX**: attempting to address deployment issues ([#3](https://github.com/resengi/hand_drawn_analytics/issues/3)). ([67f2b785](https://github.com/resengi/hand_drawn_analytics/commit/67f2b78559c1a857c37d244be2e683d27dfb58ef))
+ - **FIX**: patching the pubspec.yaml file ([#2](https://github.com/resengi/hand_drawn_analytics/issues/2)). ([f69ecf3f](https://github.com/resengi/hand_drawn_analytics/commit/f69ecf3fc4ebb6a520a73cff50ffced7a84158d3))
+ - **FEAT**: Doc changes posing as a feat ([#6](https://github.com/resengi/hand_drawn_analytics/issues/6)). ([f3267956](https://github.com/resengi/hand_drawn_analytics/commit/f3267956b24d8da6f786ba22909263c4884ded31))
+
+## 0.1.1
+
+ - **FIX**: restoring previous version and updating workflow for correct deployment ([#5](https://github.com/resengi/hand_drawn_analytics/issues/5)). ([4c4a03db](https://github.com/resengi/hand_drawn_analytics/commit/4c4a03dbc0eb7102a976d6a4bd57b9b123e8fd93))
+ - **FIX**: reverting failed Melos change ([#4](https://github.com/resengi/hand_drawn_analytics/issues/4)). ([455e81fc](https://github.com/resengi/hand_drawn_analytics/commit/455e81fccc87f9efa5b301cb846dce5ca312c8bb))
+ - **FIX**: attempting to address deployment issues ([#3](https://github.com/resengi/hand_drawn_analytics/issues/3)). ([67f2b785](https://github.com/resengi/hand_drawn_analytics/commit/67f2b78559c1a857c37d244be2e683d27dfb58ef))
+ - **FIX**: patching the pubspec.yaml file ([#2](https://github.com/resengi/hand_drawn_analytics/issues/2)). ([f69ecf3f](https://github.com/resengi/hand_drawn_analytics/commit/f69ecf3fc4ebb6a520a73cff50ffced7a84158d3))
+ - **FEAT**: Doc changes posing as a feat ([#6](https://github.com/resengi/hand_drawn_analytics/issues/6)). ([f3267956](https://github.com/resengi/hand_drawn_analytics/commit/f3267956b24d8da6f786ba22909263c4884ded31))
+
 # Changelog
 
 ## 0.1.0
@@ -36,5 +72,8 @@ the values the consumer left unset.
 * **Semantic coloring**: a resolver → tag-pin → positional-palette resolution
   order via `BridgePalette`.
 * **Locale-aware formatting**: one `BridgeFormatters` policy object for table
+  cells, big numbers, axis ticks, unit labels, and bucket-key labels, reactive
+  to runtime locale switches.
+BridgeFormatters` policy object for table
   cells, big numbers, axis ticks, unit labels, and bucket-key labels, reactive
   to runtime locale switches.
